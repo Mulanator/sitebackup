@@ -1,0 +1,20 @@
+{
+	"manifest": "sitebackup",
+	"type": "tool",
+	"handle": "mula",
+	"extension": "sitebackup",
+	"name": "SiteBackup",
+	"author": "Joerg Reisslein",
+	"version": 1,
+	"created": 1423842364,
+	"view" : "sitebackup",
+	"description": "Creates a backup of your site which you can download with your browser. Requires razorCMS 3.4.7+",
+	"dependancies": [
+	],
+	"content_settings": [	
+	],
+	"settings": [
+		{"name": "noaccessdlg", "label": "No-Access warning:", "placeholder": "Display error if no access", "value":"true", "type":"bool"},
+		{"name": "noaccessmsg", "label": "No-Access message:", "placeholder": "Message to display to user if no access", "value":"Access denied!", "type":"string"}	
+	]	
+}
